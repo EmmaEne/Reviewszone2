@@ -34,45 +34,38 @@
   <div class="humberger__menu__overlay"></div>
   <div class="humberger__menu__wrapper">
     <div class="humberger__menu__logo">
-      Reviews Zone
-    </div>
-    <div class="humberger__menu__cart">
-      <ul>
-        <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-        <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-      </ul>
-      <div class="header__cart__price">item: <span>$150.00</span></div>
-    </div>
-    <div class="humberger__menu__widget">
-      <div class="header__top__right__language">
-        <img src="img/language.png" alt="">
-        <div>English</div>
-        <span class="arrow_carrot-down"></span>
-        <ul>
-          <li><a href="#">Spanis</a></li>
-          <li><a href="#">English</a></li>
-        </ul>
-      </div>
-      <div class="header__top__right__auth">
-        <a href="#"><i class="fa fa-user"></i> Login</a>
-      </div>
+      <a href="index.html" style="color: rgb(224, 96, 50);">Reviews Zone</a>
     </div>
     <nav class="humberger__menu__nav mobile-menu">
       <ul>
         <li><a href="./index.html">Home</a></li>
-        <li><a href="./review.html">Review</a></li>
+        <li class="active"><a href="./review.html">Review</a></li>
         <li><a href="#">Pages</a>
           <ul class="header__menu__dropdown">
-            <li><a href="./shop-details.html">Review Details</a></li>
+            <li><a href="./review-details.html">Review Details</a></li>
             <li><a href="./shoping-cart.html">Shoping Cart</a></li>
             <li><a href="./checkout.html">Check Out</a></li>
             <li><a href="./blog-details.html">Blog Details</a></li>
           </ul>
         </li>
         <li><a href="./blog.html">Blog</a></li>
-        <li class="active"><a href="./all product.html">All products</a></li>
+        <li><a href="./all product.html">All products</a></li>
       </ul>
     </nav>
+    <div class="humberger__menu__widget">
+      <div class="header__top__right__language">
+        <img src="img/language.png" alt="">
+        <div>English</div>
+        <span class="arrow_carrot-down"></span>
+        <ul>
+          <li><a href="#">Spanish</a></li>
+          <li><a href="#">English</a></li>
+        </ul>
+      </div>
+      <div class="header__top__right__auth">
+        <a href="login.html"><i class="fa fa-user"></i> Login</a>
+      </div>
+    </div>
     <div id="mobile-menu-wrap"></div>
     <div class="header__top__right__social">
       <a href="#"><i class="fa fa-facebook"></i></a>
@@ -80,59 +73,45 @@
       <a href="#"><i class="fa fa-linkedin"></i></a>
       <a href="#"><i class="fa fa-pinterest-p"></i></a>
     </div>
-    <div class="humberger__menu__contact">
-      <ul>
-        <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-        <li>Free Shipping for all Order of $99</li>
-      </ul>
-    </div>
+  </div>
   </div>
   <!-- Humberger End -->
 
   <!-- Header Section Begin -->
-  <header class="header">
-    <div class="header__top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="header__logo" style="font-size: 26px; font-weight: bold;">
-              <a href="index.html" style="color: rgb(224, 96, 50);">Reviews Zone</a>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <nav class="header__menu">
-              <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li class="active"><a href="./review.html">Review</a></li>
-                <li><a href="#">Pages</a>
-                  <ul class="header__menu__dropdown">
-                    <li><a href="./shop-details.html">Review Details</a></li>
-                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                    <li><a href="./checkout.html">Check Out</a></li>
-                    <li><a href="./blog-details.html">Blog Details</a></li>
-                  </ul>
-                </li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./all product.html">Products</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="header__top__right__language">
-            <img src="img/language.png" alt="">
-            <div>English</div>
-            <span class="arrow_carrot-down"></span>
-            <ul>
-              <li><a href="#">Spanish</a></li>
-              <li><a href="#">English</a></li>
-            </ul>
-          </div>
-          <div class="header__top__right__auth">
-            <a href="#"><i class="fa fa-user"></i> Login</a>
-          </div>
-          <div class="humberger__open">
-            <i class="fa fa-bars"></i>
+  <header class="header other__header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="header__logo">
+            <h3 href="index.html" style="color: rgb(224, 96, 50); font-weight: bold;">Reviews Zone</h3>
           </div>
         </div>
+        <div class="col-lg-6">
+          <nav class="header__menu">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li class="active"><a href="./review.html">Review</a></li>
+              <li><a href="#">Pages</a>
+                <ul class="header__menu__dropdown">
+                  <li><a href="./review-details.html">Review Details</a></li>
+                  <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                  <li><a href="./checkout.html">Check Out</a></li>
+                  <li><a href="./blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__top__right__auth header__top__right__auth__desktop  col-lg-3 d-flex justify-content-end" style="font-weight: bold;">
+          <a href="login.html"><i class="fa fa-user"></i> LOGIN</a>
+        </div>
+      </div>
+      <div class="humberger__open">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
   </header>
   <!-- Header Section End -->
 
@@ -189,16 +168,16 @@
   </section>
   <!-- Hero Section End -->
 
-  <div id="productCarousel" class="carousel slide container" data-bs-ride="carousel">
+  <div id="productCarousel" class="carousel slide container mb-5" data-bs-ride="carousel">
     <!-- Carousel Inner -->
     <div class="carousel-inner">
 
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="row">
-          <div class="hero__text col-lg-8 col-md-8">
+          <div class="hero__text col-lg-8 col-md-6">
             <span>Customer Reviews</span>
-            <h2>Great for daily tasks and online<br /> meetings. But the display isn’t <br> the best</h2>
+            <h2>Great for daily tasks and online <br /> meetings. But the display isn’t <br> the best</h2>
             <div class="star-rating mb-2">
               <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
@@ -207,7 +186,7 @@
             <p class="h4"> - Jane Doe</p>
             <a href="#" class="primary-btn">Add Your Review</a>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <img src="./img/hero/model4-removebg-preview.png" class="img-fluid" style="max-width: 300px;" alt="Phone 1">
           </div>
         </div>
@@ -331,7 +310,7 @@
                 <h4>Latest Phones</h4>
                 <div class="latest-product__slider owl-carousel">
                   <div class="latest-prdouct__slider__item">
-                    <a href="shop-details.html" class="latest-product__item">
+                    <a href="review-details.html" class="latest-product__item">
                       <div class="latest-product__item__pic">
                         <img src="img/latest-product/headphones1.jpg" alt="">
                       </div>
@@ -439,43 +418,6 @@
                       </div>
                       <div class="latest-product__item__pic">
                         <img src="img/latest-product/lp-1.png" alt="">
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="sidebar__item">
-              <div class="latest-product__text">
-                <h4>Latest Products</h4>
-                <div class="latest-product__slider owl-carousel">
-                  <div class="latest-prdouct__slider__item">
-
-                    <a href="#" class="latest-product__item">
-                      <div class="latest-product__item__pic">
-                        <img src="img/latest-product/lp-1.png" alt="">
-                      </div>
-                      <div class="latest-product__item__pic">
-                        <img src="img/latest-product/tablet.jpg" alt="">
-                      </div>
-                    </a>
-
-                    <a href="#" class="latest-product__item">
-                      <div class="latest-product__item__pic_large">
-                        <img src="img/latest-product/phones.jpg" alt="">
-                      </div>
-                    </a>
-                  </div>
-                  <div class="latest-prdouct__slider__item">
-                    <a href="#" class="latest-product__item">
-                      <div class="latest-product__item__pic_large">
-                        <img src="img/latest-product/headphones2.jpg" alt="">
-                      </div>
-                    </a>
-                    <a href="#" class="latest-product__item">
-                      <div class="latest-product__item__pic_large">
-                        <img src="img/latest-product/headphones1.jpg" alt="">
                       </div>
                     </a>
                   </div>
@@ -882,7 +824,6 @@
               </div>
 
 
-              
 
             </div>
             <!-- <div class="row">
